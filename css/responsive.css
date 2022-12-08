@@ -107,12 +107,14 @@
     }
 
 
-    /* #banner_section .banner_main .banner_right .banner_right_middle_circle {
-        width: 340px;
-        height: 340px;
-        
-        
-        left: -2%;
+    #banner_section .banner_main .banner_right .banner_right_middle_circle {
+        width: 0px;
+        height: 0px;
+        background:transparent;
+        border-radius:0;
+        position: absolute;
+        top: 0%;
+        left: 0%;
     }
     #banner_section .banner_main .banner_right .mobile_frame .slider_main {
         
