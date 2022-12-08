@@ -1,6 +1,6 @@
 @media (max-width:575.98px) {
     /* Navbar Section Start  */
-    .back_top {
+    .back_top.show {
         opacity:0;
         visibility: hidden;
     }
@@ -362,7 +362,7 @@
     } 
     #design_section .design_main .design_right .design_image1 {
         position: absolute;
-        left: 0%;
+        left: -4%;
         top: -336px;
         z-index: 1;
     }
