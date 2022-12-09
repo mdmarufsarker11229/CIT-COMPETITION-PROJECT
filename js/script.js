@@ -90,9 +90,27 @@ $(function(){
         infinite:true,
         responsive: [
             {
-              breakpoint: 991,
+              breakpoint: 1399,
               settings: {
                 slidesToShow: 5,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              }
+            },  
+            {
+              breakpoint: 1199,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              }
+            },
+            {
+              breakpoint: 991,
+              settings: {
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true,
@@ -138,9 +156,27 @@ $(function(){
         infinite:true,
         responsive: [
             {
+              breakpoint: 1399,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              }
+            }, 
+            {
+              breakpoint: 1199,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              }
+            },  
+            {
               breakpoint: 991,
               settings: {
-                slidesToShow: 5,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true,
@@ -183,9 +219,27 @@ $(function(){
         focusOnSelect:true,
         responsive: [
             {
+              breakpoint: 1399,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              }
+            },
+            {
+              breakpoint: 1199,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              }
+            },
+            {
               breakpoint: 991,
               settings: {
-                slidesToShow: 5,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true,
