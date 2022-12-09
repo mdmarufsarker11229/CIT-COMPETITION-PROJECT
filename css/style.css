@@ -918,8 +918,14 @@ color:gray;
     font-weight:400;
     line-height:24px;
 }
-#about_app_section .about_app_main .about_app_right .text_item  {
+#about_app_section .about_app_main .about_app_right .text_item {
     margin-top:50px;
+}
+#about_app_section .about_app_main .about_app_right .text_item .item  {
+    justify-content: center;
+    gap:50px;
+    padding:6px 0px;
+    border-radius:20px;
 }
 #about_app_section .about_app_main .about_app_right .text_item .icon_text h3  {
     color:#6A49F2;
@@ -1793,8 +1799,8 @@ color:gray;
      
     background-repeat: no-repeat;
     background-size: var(--bs-accordion-btn-icon-width);
-    transition: var(--bs-accordion-btn-icon-transition);
-    
+    /* transition: var(--bs-accordion-btn-icon-transition); */
+    transition:all linear 0.3s;
 }
 #faq_section .faq_main .faq_list .accordion-item .accordion-button:not(.collapsed)::after {
     flex-shrink: 0;
@@ -1807,7 +1813,8 @@ color:gray;
      
     background-repeat: no-repeat;
     background-size: var(--bs-accordion-btn-icon-width);
-    transition: var(--bs-accordion-btn-icon-transition);
+    /* transition: var(--bs-accordion-btn-icon-transition); */
+    transition:all linear 0.3s;
     
 }
 

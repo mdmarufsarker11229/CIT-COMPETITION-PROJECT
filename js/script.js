@@ -15,7 +15,7 @@ window.addEventListener('scroll',function(){
 
 
     // for download section
-    if(scroll_value>9500 && scroll_value<10400 ){
+    if(scroll_value>9500 && scroll_value<11500 ){
         download_section.classList.add("background")
     }else  {
         download_section.classList.remove("background")  
@@ -149,7 +149,7 @@ $(function(){
             {
               breakpoint: 767,
               settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true,
