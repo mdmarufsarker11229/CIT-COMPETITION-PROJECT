@@ -146,23 +146,8 @@
         left: -16%;
     }
 
-    #banner_section .banner_main .banner_right .mobile_frame .slider_main {
-        width:270px;
-        margin-left: 27px;
-    }
-
-    #banner_section .banner_main .banner_right .mobile_frame svg {
-       
-        height: 560px;
-        position: absolute;
-        top: -2%;
-        left: 12%;
-
-    }
-    #banner_section .banner_main .banner_right .mobile_frame .slider_main .slider_items .item img {
-        width: 96%;
-       
-    }
+    
+    
     #banner_section .banner_main .banner_right .banner_icon_right {
         position: absolute;
         top: 8%;
