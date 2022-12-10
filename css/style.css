@@ -1262,6 +1262,7 @@ color:gray;
 
 #work_section .work_main .middle_item .item {
     padding-left:70px;
+    margin-bottom:-30px;
 }
 #work_section .work_main .middle_item .item .image {
     background:url(../images/work-middle-image.png);
