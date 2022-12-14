@@ -269,3 +269,19 @@ $(function(){
 
 //for Aos Plugin 
 AOS.init();
+
+
+
+
+var typed = new Typed('.heading_type', {
+  strings: ['manage your customers.'],
+  smartBackspace: true,
+  startDelay:1000,
+  typeSpeed:50,
+  loop:true,
+  backSpeed:50,
+
+});
+
+
+
