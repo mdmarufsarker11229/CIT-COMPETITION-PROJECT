@@ -271,7 +271,7 @@ $(function(){
 AOS.init();
 
 
-
+// for typed js 
 
 var typed = new Typed('.heading_type', {
   strings: ['manage your customers.'],
@@ -285,3 +285,33 @@ var typed = new Typed('.heading_type', {
 
 
 
+// for preloader 
+
+let preloader=document.querySelector(".preloader");
+
+window.addEventListener('load',function(){
+  
+  // preloader.style='display:none;';
+// setTimeout(function(){
+//   preloader.style='display:none;';
+//   },3000)
+  setTimeout(()=>{
+    preloader.style.display='none';
+  },100);
+});
+
+
+// for mouse movement 
+let cursor=document.querySelector(".cursor");
+let pointer=document.querySelector(".pointer");
+
+window.addEventListener('mousemove',(e)=>{
+  // console.log("X" + e.pageX);
+  // console.log("y" + e.pageY);
+  // cursor.setAttribute("style","top:" + e.pageY + "px;" + "left:"+ e.pageX + "px;")
+  // pointer.setAttribute("style","top:" + e.pageY + "px;" + "left:"+ e.pageX + "px;")
+
+  cursor.setAttribute("style",`top:${e.pageY}px; left:${e.pageX}px;`)
+  pointer.setAttribute("style",`top:${e.pageY}px; left:${e.pageX}px;`)
+
+})

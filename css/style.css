@@ -48,6 +48,59 @@ body {
    /* =====================
     All Common Css
    =====================*/
+   /* Cursor move Start  */
+.cursor {
+    width:30px;
+    height:30px;
+    background:yellow;
+    border-radius:50%;
+    position:absolute;
+    z-index:99999;
+    transition:all linear 0.2s;
+    transform:translate(-50%,-50%);
+    pointer-events:none;
+}
+
+.pointer {
+    width:4px;
+    height:4px;
+    background:black;
+    border-radius:50%;
+    position:absolute;
+    z-index:99999;
+    transition:all linear 0.1s;
+    transform:translate(-50%,-50%);
+    pointer-events:none;
+}
+
+
+
+   /* Cursor move End  */
+
+
+   /* preloader Start  */
+
+.preloader {
+    width:100%;
+    height:100vh;
+    position:fixed;
+    left:0;
+    top:0;
+    background:#E3E3E3;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   z-index:99999;
+}
+
+
+
+
+
+   /* preloader End */
+
+
+     
 /* back to top  */
 .back_top {
     width:40px;
